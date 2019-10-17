@@ -29,28 +29,81 @@ module Haikunator
 
     def adjectives
       %w(
-        autumn hidden bitter misty silent empty dry dark summer
-        icy delicate quiet white cool spring winter patient
-        twilight dawn crimson wispy weathered blue billowing
-        broken cold damp falling frosty green long late lingering
-        bold little morning muddy old red rough still small
-        sparkling throbbing shy wandering withered wild black
-        young holy solitary fragrant aged snowy proud floral
-        restless divine polished ancient purple lively nameless
+        agreable
+        ancien
+        bleu
+        calme
+        chaud
+        clair
+        divin
+        doux
+        exceptionnel
+        fier
+        frais
+        grand
+        heureux
+        jeune
+        joyeux
+        juste
+        matin
+        palpitant
+        paradisiaque
+        passionnant
+        plaisant
+        plein
+        poli
+        possible
+        radieux
+        riche
+        rouge
+        saint
+        scintillant
+        veinard
+        vert
+        violet
       )
     end
 
     def nouns
       %w(
-        waterfall river breeze moon rain wind sea morning
-        snow lake sunset pine shadow leaf dawn glitter forest
-        hill cloud meadow sun glade bird brook butterfly
-        bush dew dust field fire flower firefly feather grass
-        haze mountain night pond darkness snowflake silence
-        sound sky shape surf thunder violet water wildflower
-        wave water resonance sun wood dream cherry tree fog
-        frost voice paper frog smoke star
-      )
+        amour
+        aurore
+        bonbon
+        bonheur
+        cascade
+        ciel
+        colline
+        eau
+        enthousiasme
+        euphorie
+        exaltation
+        extase
+        feuille
+        fleur
+        gloire
+        harmonie
+        idylle
+        joie
+        lac
+        matin
+        montagne
+        musique
+        nuage
+        oiseau
+        paillettes
+        papillon
+        plage
+        plaisir
+        plume
+        prairie
+        ravissement
+        rivière
+        ruisseau
+        satisfaction
+        soleil
+        triomphe
+        vague
+      ).uniq
     end
   end
 end

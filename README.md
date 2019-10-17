@@ -24,20 +24,22 @@ Or install it yourself as:
 
 Haikunator is pretty simple. There is nothing to configure and it only has a single method, `.haikunate`:
 
+This fork is a free adaptation in French language
+
 ```ruby
-Haikunator.haikunate # => "rough-snowflake-1142"
+Haikunator.haikunate # => "exceptionnel-bonheur-1142"
 
 # Token range
-Haikunator.haikunate(100) # => "nameless-star-13"
+Haikunator.haikunate(100) # => "palpitant-euphorie-13"
 
 # Don't include the token
-Haikunator.haikunate(0) # => "long-flower"
+Haikunator.haikunate(0) # => "riche-extase"
 
 # Use a different delimiter
-Haikunator.haikunate(9999, '.') # => "cool.leaf.6743"
+Haikunator.haikunate(9999, '.') # => "passionnant.ciel.6743"
 
 # No token, no delimiter
-Haikunator.haikunate(0, ' ') # => "green fire"
+Haikunator.haikunate(0, ' ') # => "radieux matin"
 ```
 
 ## Contributing
